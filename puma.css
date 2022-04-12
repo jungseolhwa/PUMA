@@ -151,9 +151,9 @@ header .header-cont .mypage ul li a svg {
   margin: 0 auto;
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr)[4];
+  /* -ms-grid-columns: (1fr)[4]; */
       grid-template-columns: repeat(4, 1fr);
-  -ms-grid-rows: (1fr)[3];
+  /* -ms-grid-rows: (1fr)[3]; */
       grid-template-rows: repeat(3, 1fr);
   background-color: none;
   text-align: center;
